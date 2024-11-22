@@ -25,7 +25,7 @@ public class Robot extends TimedRobot {
   @Override
   public void robotInit() {
     m_robotDrive = new DifferentialDrive(m_leftMotor, m_rightMotor);
-    m_controller = new PS4Controller(0);
+    m_controller = new PS4Controller(0); // PS4 Controller
     SendableRegistry.addChild(m_robotDrive, m_leftMotor);
     DriverStation.reportWarning("Robot initialized", false);
   }
