@@ -60,7 +60,7 @@ public class RobotContainer {
     // Set the options to show up in the Dashboard for selecting auto modes. If you
     // add additional auto modes you can add additional lines here with
     // autoChooser.addOption
-    m_chooser.setDefaultOption("Coral Auto", m_simpleCoralAuto);3
+    m_chooser.setDefaultOption("Coral Auto", m_simpleCoralAuto);
     
     m_chooser.addOption("Drive Forward Auto", m_driveForwardAuto);
     SmartDashboard.putData(m_chooser);
