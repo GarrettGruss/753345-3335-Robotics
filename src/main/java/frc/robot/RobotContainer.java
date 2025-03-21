@@ -87,7 +87,7 @@ public class RobotContainer {
      */
     m_drive.setDefaultCommand(new DriveCommand(m_drive,
         () -> -m_driverController.getLeftY() *.8,
-        () -> -m_driverController.getRightX() *.9,
+        () -> -m_driverController.getLeftX() *.9,
         () -> true));
 
     /**
@@ -101,7 +101,7 @@ public class RobotContainer {
      */
     m_driverController.leftBumper().whileTrue(new DriveCommand(m_drive, 
         () -> -m_driverController.getLeftY() * DriveConstants.SLOW_MODE_MOVE,  
-        () -> -m_driverController.getRightX() * DriveConstants.SLOW_MODE_TURN,
+        () -> -m_driverController.getLeftX() * DriveConstants.SLOW_MODE_TURN,
         () -> true));
 
     /**
