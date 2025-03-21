@@ -45,6 +45,14 @@ public final class Constants {
     public static final double ALGAE_SPEED_OUT = -0.4;
   }
 
+  public static final class ActuatorConstants {
+    public static final int ACTUATOR_MOTOR_ID = 5;
+    public static final int ACTUATOR_MOTOR_CURRENT_LIMIT = 60;
+    public static final double ACTUATOR_MOTOR_VOLTAGE_COMP = 10;
+    public static final double ACTUATOR_SPEED = 1.0;
+    public static final double ALGAE_SPEED_OUT = -0.4;
+  }
+
   public static final class OperatorConstants {
     public static final int DRIVER_CONTROLLER_PORT = 0;
     public static final int OPERATOR_CONTROLLER_PORT = 1;
